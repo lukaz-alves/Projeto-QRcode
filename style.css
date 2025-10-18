@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 225, 239);
+    font-family: 'Outfit', sans-serif;
+}
+
+main#card {
+    background-color: white;
+    height: 31em;
+    width: 20em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.116);
+}
+
+main>.image {
+    height: 18em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+main>p {
+    color: rgb(104, 119, 141);
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 28px;
+}
+
+main>p.title {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 0px 26px 16px 26px;
+}
